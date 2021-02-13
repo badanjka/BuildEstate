@@ -1,0 +1,433 @@
+@font-face {
+    font-family: "CustomFontMedium";
+    src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CustomFontLight";
+    src: url("./fonts/Roboto-Light.ttf") format("truetype");
+}
+
+.wrapper {
+    font-family: "CustomFontMedium";
+}
+
+button {
+    background: rgb(20, 110, 180);
+    color: white;
+    border-radius: 15px;
+    width: 107px;
+    height: 34px;
+    border-style: none;
+}
+
+.titleA {
+    font-size: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 30%;
+}
+
+.blueletter {
+    color: rgb(79, 161, 226);
+}
+
+.paddingcolor {
+    color: rgb(88, 80, 80)
+}
+
+.firstLi {
+    color: rgb(150, 119, 119);
+    padding-left: 17px;
+}
+
+.opinion {
+    background-color: rgb(127, 194, 247);
+    padding-left: 18px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.fame {
+    width: 13%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.whiteletter {
+    color: white;
+}
+
+.contactUs {
+    width: 50%;
+    color: white;
+    height: 117px;
+    float: left;
+}
+
+.frstContact {
+    background-color: rgb(44, 221, 152);
+}
+
+.scndContact {
+    background-color: rgb(255, 79, 129);
+}
+
+.аdress {
+    background-color: rgb(51, 105, 230);
+}
+
+.house {
+    background-color: rgb(127, 194, 247);
+}
+
+.contact {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.housepic {
+    width: 95%;
+    height: 100%;
+}
+
+.mapicon {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+iframe {
+    width: 100%;
+    height: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer ul {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+}
+
+.sub {
+    background-color: rgb(255, 152, 1);
+    color: white;
+    border-style: none;
+    width: 80px;
+    height: 30px;
+}
+
+.msg {
+    height: 100px;
+}
+
+@media screen and (max-width: 425px) {
+    .upper {
+        text-align: center;
+    }
+    .spanFirst {
+        border: 3px solid rgb(119, 119, 119);
+        border-right: none;
+        color: rgb(255, 152, 1);
+    }
+    .spanScnd {
+        color: rgb(119, 119, 119);
+    }
+    .headerLi {
+        padding-left: 0px;
+        margin: 0 auto;
+        width: 88%;
+        background-color: rgb(127, 194, 247);
+        color: white;
+        padding-top: 1px;
+    }
+    .headerLi ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .menu {
+        padding-bottom: 10px;
+    }
+    .dimension {
+        color: white;
+        width: 100%;
+        background-image: url(./images/banner3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 230px;
+    }
+    .title {
+        font-size: 21px;
+        padding-top: 82px;
+    }
+    .firstLi {
+        color: rgb(150, 119, 119);
+        padding-left: 17px;
+    }
+    .goals {
+        padding-right: 6%;
+        padding-left: 6%;
+        list-style-image: url(./images/arrow_bullet.png);
+    }
+    .firstpic {
+        width: 100%;
+    }
+    .contactUs {
+        width: 50%;
+        color: white;
+        height: 117px;
+        float: left;
+    }
+    .cu {
+        padding-left: 10px;
+    }
+    .smallL {
+        font-size: 12px;
+        list-style-type: none;
+    }
+    .in {
+        width: 100%;
+        height: 25%;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .lists {
+        list-style-type: none;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .firstA {
+        float: left;
+        width: 46%;
+        padding-right: 10px;
+    }
+    .firstpic {
+        width: 50%;
+    }
+    .buildEstate {
+        position: absolute;
+    }
+    .headerLi {
+        position: absolute;
+        left: 336px;
+        background-color: none;
+        color: white;
+        padding-top: 1px;
+    }
+    .upper {
+        background-image: url(./images/banner3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+    .dimension {
+        padding: 168px 50px 0px 36px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+    .headerLi ul li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .buildEstate {
+        left: 33px;
+    }
+    .spanFirst {
+        border: 3px solid white;
+        border-right: none;
+        color: rgb(255, 152, 1);
+    }
+    .spanScnd {
+        color: white;
+    }
+    .goals {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .williamson {
+        width: 40%;
+        float: left;
+    }
+    .lopez {
+        width: 40%;
+        float: left;
+        margin-left: 12px;
+    }
+    .gomez {
+        width: 40%;
+        float: left;
+        margin-top: 12px;
+        margin-right: 45%;
+    }
+    .contact {
+        float: left;
+    }
+    .contactUs {
+        height: 170px;
+    }
+    iframe {
+        height: 330px;
+    }
+    .in {
+        width: 30%;
+        display: inline;
+        height: 25%;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .mailUs {
+        float: left;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    footer {
+        float: left;
+        width: 100%;
+    }
+    .msg {
+        width: 100%;
+        height: 160px;
+    }
+    .mrg {
+        margin-right: 13px;
+    }
+    .lists {
+        float: left;
+        padding-left: 8px;
+    }
+    .home {
+        padding-left: 235px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        max-width: 1024px;
+        margin:0 auto;
+    }
+    .buildEstate {
+        position: absolute;
+    }
+    .headerLi {
+        position: absolute;
+        right: 63px;
+        background-color: none;
+        color: white;
+        padding-top: 1px;
+    }
+    .upper {
+        background-image: url(./images/banner3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        position: relative;
+    }
+    .dimension {
+        padding: 399px 50px 0px 36px;
+        color: rgb(227,230,232);
+        font-size: 18px;
+        text-align: center;
+    }
+    .headerLi ul li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .buildEstate {
+        left: 33px;
+    }
+    .spanFirst {
+        border: 3px solid white;
+        border-right: none;
+        color: rgb(255, 152, 1);
+    }
+    .spanScnd {
+        color: white;
+    }
+    .goals {
+        margin: 0 auto;
+        width: 80%;
+        
+    }
+    .firstA {
+        width: 30%;
+        float: left;
+        margin-right: 27px;
+    }
+    .firstpic {
+        width: 30%;
+        float: left;
+        margin-right: 27px;
+    }
+    .whoWeAre {
+        height: 360px;
+    }
+    .opinion {
+        background-color: rgb(127, 194, 247);
+        padding: 15px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        width: 232px;
+        float: left;
+    }
+    .titleA {
+        font-size: 20px;
+        text-align: center;
+        float: left;
+        width: 100%;
+    }
+    .contactUs {
+        width: 50%; 
+        color: white;
+        height: 180px;
+        float: left;
+        width: 25%;
+    }
+    iframe {
+        width: 100%;
+        height: 300px;
+        float: left;
+    }
+    .in {
+        width: 30%;
+        display: inline;
+        height: 25%;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .mailUs {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .msg {
+        height: 100px;
+        width: 100%;
+    }
+    footer ul li {
+        display: inline;
+    }
+    .mrg {
+        margin-right:20px;
+    }
+}
